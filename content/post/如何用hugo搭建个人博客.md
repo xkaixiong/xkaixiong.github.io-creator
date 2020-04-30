@@ -11,7 +11,7 @@ draft: false
 3. 别关闭上一个终端，新开终端输入`hugo`创建新目录public,gitignore文件加入/public/让public自成一个仓库
 4. ```git init-git add . -git commit -m```输入"文件标题"部署线下仓库
 5. github上新建 用户名.github.io仓库，```git remote add origin git@github.com：github用户名/用户名.github.io.git git push -u origin master```将public上传到github
-6. 刷新上面的仓库进入settings，github pages选择master，点击http://github用户名.github.io查看博客
+6. 刷新上面的仓库进入settings，github pages选择master branch，点击http://github用户名.github.io查看博客
 
 
 
